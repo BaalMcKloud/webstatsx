@@ -5,8 +5,15 @@ $mysql_user = 'MYSQL_USER'; // your MySQL database user
 $mysql_pass = 'MYSQL_PASSWORD'; // your MySQL database password
 $mysql_db = 'MYSQL_DATABASE_NAME'; // your MySQL database name
 $mysql_encoding = 'latin1';  // this is recommended because the plugin creates all its tables with latin1 encoding
-$prefix = 'stats_'; // [default=stats]
+$prefix = 'Stats_'; // plugin default is "Stats"
 
+
+/**
+ * Display-specific optional configs
+ */
+$page_title = 'Minecraft WEBStatsX';
+$header_title = 'WEBStatsX';
+$top_limit = 10;
 
 
 /*########################
